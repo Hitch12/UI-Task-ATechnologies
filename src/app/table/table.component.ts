@@ -7,7 +7,12 @@ import { Component } from '@angular/core';
 })
 export class TableComponent {
   checked: boolean = true;
+  pagesOptions = [
+    { Count: '10' },
+    { Count: '20' },
+    { Count: '30' },
 
+];
   customers:Array<any> =[
     {
       name:'أحمد محمود',
