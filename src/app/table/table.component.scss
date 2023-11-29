@@ -1,0 +1,103 @@
+.myTable{
+  direction: rtl;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px #F3F3F5 solid;
+}
+
+tr{
+
+  th , td{
+   text-align: center;
+   font-family: NeoSansArabic;
+   font-weight: 400;
+   line-height: 23.24px;
+   color: #1C1C28;
+   font-size: 13.28px;
+
+ }
+ th{
+   color: #ABAAB1;
+   font-size: 13.28px;
+ }
+ td{
+  margin: 0;
+  padding: 7.5px;
+  p{
+    margin: 0;
+    padding: 0;
+    display: inline;
+  }
+  .PDFIcon{
+    background: rgba(138, 116, 249, 0.1);
+    padding: 7.5px 10px ;
+    border-radius: 8px;
+  }
+  .p2{
+    color: rgba(0, 0, 0, 0.40);
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 15px;
+    display: block;
+    text-align: start;
+  }
+  .downIcon{
+    padding: 7.5px 10px ;
+  }
+  .phoneNum{
+    color: #92A1AD;
+    font-size: 9.96px;
+    line-height: 10px;
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+ }
+ td:first-of-type{
+  color: #ABAAB1;
+
+ }
+}
+
+.inputSearch{
+  color: rgba(146, 161, 173, 0.40);
+  font-size: 10px;
+  word-wrap: break-word;
+  border-radius: 8px;
+  border: 1px rgba(146, 161, 173, 0.40) solid;
+  width: 277px;
+  height: 45px;
+  margin: 0 5px;
+}
+.p-input-icon-right i{
+  font-size: 16px;
+}
+.tableHeader p{
+  vertical-align: middle;
+
+}
+.btnTableHeader , .btnTableHeader2{
+  border: 0.75px rgba(146, 161, 173, 0.40) solid;
+  border-radius: 7.50px;
+  background: white;
+  color: rgba(139, 139, 139, 1);
+  height: 45px;
+  margin: 0 5px;
+  font-size: 16px;
+  font-family: NeoSansArabic;
+
+}
+.btnTableHeader:hover , .btnTableHeader2:hover{
+  background: rgba(138, 116, 249, 1);
+}
+.btnTableHeader2{
+  background: rgba(138, 116, 249, 1);
+  color: #FCFCFC;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+  word-wrap: break-word
+}
+.checked{
+  width: 75px;
+}

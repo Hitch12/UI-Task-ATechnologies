@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'NeoSansArabic';
+  src: url('./../assets/fonts/NeoSansArabic.woff') format('woff2'),
+       url('./../assets/fonts/NeoSansArabic.woff') format('woff');
+  /* Add other font formats if necessary */
+}
+.myDashboard{
+  background: #F3F5F7;
+  min-height: 100vh;
+}
+.bgMainColor{
+  background: #E7EAED !important;
+}
+header{
+  p{
+    font-family: NeoSansArabic;
+    font-weight: 500;
+    line-height: 28px;
+  }
+
+  .headerBtn{
+    border-radius: 8px;
+
+  }
+  .editBtn{
+    border-radius: 4px;
+    border: #E9EAEA  1px solid;
+    font-family: NeoSansArabic;
+    i{
+      color: #8A74F9;
+    }
+  }
+
+}
+
+

@@ -1,0 +1,106 @@
+.offerCard{
+  width: 100%;
+  font-family: NeoSansArabic;
+  position: relative;
+  background: rgba(138, 116, 249, 1);
+  border-radius: 12.5px;
+
+  .svg{
+    position: absolute;
+    z-index: 0;
+  }
+  .boxBody{
+    .codeOffer{
+      background: #fff;
+      width: fit-content;
+      padding: 10px;
+      text-align: center;
+      border-radius: 8px;
+      border: 0.83px #DDDDDD dotted;
+      position: relative;
+      z-index: 99;
+      i{
+        color: rgba(138, 116, 249, 1);
+        cursor: pointer;
+      }
+    }
+    position: relative;
+    .deleteIcon i{
+      position: absolute;
+      left: 10%;
+      top: 25%;
+      font-size: 20px;
+      color: white;
+    }
+    h3{
+      color: white;
+      font-size: 14px;
+      font-weight: 500;
+      word-wrap: break-word;
+      font-family: NeoSansArabic;
+      margin-bottom: 20px;
+    }
+    p{
+      color: white;
+      font-size: 12px;
+      margin-top: 10px;
+    }
+    text-align: center;
+    padding: 20px 20px 0 20px;
+
+  }
+  .mLine{
+    position: relative;
+  }
+  .mLine::after{
+    content: '';
+    background: #F3F5F7;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: 100%;
+    transform: translateX(-50%);
+  }
+  .mLine::before{
+    content: '';
+    background: #F3F5F7;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    right: 100%;
+    transform: translateX(50%);
+  }
+  overflow: hidden;
+  .boxFooter{
+    padding: 10px 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    color: white;
+    font-size: 14px;
+    font-family: NeoSansArabic;
+    font-weight: 400;
+    word-wrap: break-word;
+    button{
+      background: transparent ;
+      font-size: 12px;
+      transition: 0.3s;
+      margin-right: 15px;
+      cursor: pointer;
+    }
+    button:hover{
+      background: #fff;
+      color: #000;
+    }
+    .boxFooterBtn{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      p{
+        font-size: 18px;
+      }
+    }
+  }
+}

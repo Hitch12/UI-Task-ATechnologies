@@ -1,0 +1,40 @@
+.card{
+  font-family: NeoSansArabic;
+  border-radius: 8px;
+  padding: 8px;
+  border: 0.81px #EBEBEB solid;
+  direction: rtl;
+
+  .ChartTitle{
+    margin:  20px;
+    direction: rtl;
+    h3, p{
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 12.90px;
+      word-wrap: break-word
+    }
+    h3{
+      color: #1C1C28;
+    }
+    p{
+      color: #99A1B7;
+    }
+    i{
+      font-size: 12px;
+    }
+
+  }
+  .ChartDropdown{
+    direction: rtl;
+    font-size: 12px;
+    .dropdown{
+      background: #FAFAFA;
+      color: #1C1C28;
+      border-radius: 8.07px;
+      border: 0.81px #E8E8E8 solid;
+    }
+  }
+}
+
+
