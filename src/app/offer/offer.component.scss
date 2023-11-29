@@ -19,6 +19,7 @@
       border: 0.83px #DDDDDD dotted;
       position: relative;
       z-index: 99;
+      font-size: 13px;
       i{
         color: rgba(138, 116, 249, 1);
         cursor: pointer;
@@ -78,6 +79,7 @@
     display: flex;
     justify-content: space-between;
     align-items: end;
+    flex-wrap: wrap;
     color: white;
     font-size: 14px;
     font-family: NeoSansArabic;
